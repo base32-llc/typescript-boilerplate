@@ -15,7 +15,8 @@
         },
         "esSpecCompliant": true
       }
-    ]
+    ],
+    "no-default-export": true
   },
   "rulesDirectory": []
 }
