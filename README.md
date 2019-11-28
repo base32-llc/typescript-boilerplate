@@ -16,8 +16,6 @@ All of your typescript files should go in the `./src` directory, and the compile
 
 `yarn`
 
-We use yarn, however, you can use npm if you like. Simply delete the `yarn.lock` file and run `npm install` intead of `yarn install.`
-
 2. Build the typescript
 
 `yarn build`
