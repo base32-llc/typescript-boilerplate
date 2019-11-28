@@ -19,7 +19,8 @@
   },
   "lint-staged": {
     "src/**/*.{ts}": [
-      "./node_modules/tslint/bin/tslint -c tslint.json"
+      "./node_modules/tslint/bin/tslint -c tslint.json --fix",
+      "git add"
     ]
   },
   "husky": {
