@@ -23,3 +23,6 @@ All of your typescript files should go in the `./src` directory, and the compile
 3. Start the project
 
 `yarn start`
+
+
+You can now lint your project with `yarn lint` or `yarn lint-fix`
