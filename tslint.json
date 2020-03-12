@@ -1,6 +1,5 @@
 {
   "defaultSeverity": "error",
-  "extends": ["tslint:recommended"],
   "jsRules": {},
   "rules": {
     "quotemark": [true, "single"],
@@ -18,5 +17,6 @@
     ],
     "no-default-export": true
   },
-  "rulesDirectory": []
+  "rulesDirectory": [],
+  "extends": ["tslint:latest", "tslint-config-prettier"]
 }
