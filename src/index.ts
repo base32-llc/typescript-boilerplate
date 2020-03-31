@@ -1,11 +1,14 @@
-console.log('This is the main entry point of the program.');
+import dotenv from 'dotenv';
 
-const test = {
-  value: 'test',
-};
+// load the environment variables
+dotenv.config();
 
-console.log(test.value);
+function main() {
+  console.log('This is the main entry point of the program.');
+  const test = {
+    value: 'test',
+  };
+  console.log(test.value);
+}
 
-let test2 = 0;
-
-let test3 = 5;
+main();
