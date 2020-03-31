@@ -31,5 +31,9 @@
     "hooks": {
       "pre-commit": "yarn prettier; lint-staged"
     }
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "electron-log": "^4.1.1"
   }
 }
