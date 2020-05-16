@@ -1,8 +1,8 @@
-import dotenv from 'dotenv';
 import log from 'electron-log';
+import { loadEnv } from './utils/loadEnv';
 
 // load the environment variables
-dotenv.config();
+loadEnv();
 
 function main() {
   log.info('This is the main entry point of the program.');
