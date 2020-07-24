@@ -2,8 +2,9 @@
   "defaultSeverity": "error",
   "jsRules": {},
   "rules": {
-    "quotemark": [true, "single"],
+    "quotemark": [true, "double"],
     "no-console": [true, "never"],
+    "object-literal-sort-keys": false,
     "trailing-comma": [
       true,
       {
