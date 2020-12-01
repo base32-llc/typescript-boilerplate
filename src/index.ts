@@ -5,12 +5,12 @@ import { loadEnv } from "./utils/loadEnv";
 loadEnv();
 
 function main() {
-  log.info("This is the main entry point of the program.");
-  const test = {
-    value: "test",
-    ab: "test",
-  };
-  log.debug(test.value);
+    log.info("This is the main entry point of the program.");
+    const test = {
+        value: "test",
+        ab: "test",
+    };
+    log.debug(test.value);
 }
 
 main();
