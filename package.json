@@ -23,6 +23,7 @@
     },
     "dependencies": {
         "dotenv": "^8.2.0",
-        "electron-log": "^4.4.1"
+        "electron-log": "^4.4.1",
+        "ts-node": "^10.9.1"
     }
 }
