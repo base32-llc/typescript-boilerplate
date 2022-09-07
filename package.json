@@ -7,8 +7,7 @@
     "license": "MIT",
     "private": true,
     "scripts": {
-        "start": "node ./dist/index.js",
-        "prestart": "yarn build",
+        "start": "npx ts-node ./src/index.ts",
         "build": "node ./node_modules/typescript/bin/tsc",
         "format": "node ./node_modules/prettier/bin-prettier.js '**/*.{ts,tsx,json,md}' --tab-width 4 --trailing-comma es5 --ignore-path .gitignore  --arrow-parens always --write",
         "lint": "npx eslint . --ext .ts"
