@@ -15,10 +15,10 @@ All of your typescript files should go in the `./src` directory, and the compile
 
 -   Install the dependencies
 
-`yarn`
+`npm install`
 
 -   Start the project. Typescript will be compiled automatically.
 
-`yarn start`
+`npm start`
 
-You can now lint your project with `yarn lint`.
+You can now lint your project with `npm run lint`.
